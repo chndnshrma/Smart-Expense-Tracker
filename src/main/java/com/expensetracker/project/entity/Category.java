@@ -1,4 +1,12 @@
 package com.expensetracker.project.entity;
 
-public class Category {
+public enum Category {
+    FOOD,
+    TRANSPORT,
+    RENT,
+    SUBSCRIPTION,
+    ENTERTAINMENT,
+    UTILITIES,
+    HEALTHCARE,
+    OTHERS
 }
